@@ -5,7 +5,7 @@ var sentiment = require('sentiment');
 
 var analyze = module.exports = {}; 
 
-var indicoIsWorking = false; 
+var indicoIsWorking = true; 
 
 analyze.getSentiments = function(text, chunkSize, cb) {
     // console.log("butts"); 
